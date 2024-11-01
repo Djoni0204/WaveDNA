@@ -1,6 +1,8 @@
 from math import sin
 from time import sleep  
 
+''' This is a meaningless comment. '''
+
 sign = '*'
 width = 50
 occurence = 1 #keeps count of how many times it should make a full line
