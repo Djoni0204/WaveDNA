@@ -15,7 +15,7 @@ angle = 1  # Initial angle for the sine wave
 init(autoreset=True)
 
 while True:
-    sleep(0.1)  # Controls the animation speed
+    sleep(0.05) # Controls the animation speed
     angle += angle_increment
     pass_count += 1
     sinus_value = abs(sin(angle) * wave_amplitude)  # Ensure positive value for spacing
@@ -37,3 +37,6 @@ while True:
     # Center the DNA line within a fixed width
     centered_line = dna_line.center(100, ' ')
     print(centered_line)
+
+
+print("Hello World!")
